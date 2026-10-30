@@ -1,0 +1,21 @@
+# Program 18: Display students sorted by name
+import sqlite3
+
+try:
+    connection = sqlite3.connect("student.db")
+    cursor = connection.cursor()
+    cursor.execute("""CREATE TABLE IF NOT EXISTS students
+        (id INTEGER PRIMARY KEY, name TEXT NOT NULL, age INTEGER, marks REAL)""")
+    cursor.execute("SELECT * FROM students ORDER BY name ASC")
+    records = cursor.fetchall()
+
+    if records:
+        for row in records:
+            print(row)
+    else:
+        print("No student records found.")
+except sqlite3.Error as error:
+    print("Database error:", error)
+finally:
+    if "connection" in locals():
+        connection.close()

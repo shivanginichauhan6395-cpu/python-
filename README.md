@@ -1,6 +1,6 @@
 # MCA101P Python Programming Lab Solutions
 
-Answers for Lab Sheets 01–08. Every question is in its own Python file, grouped by lab sheet.
+Answers for Lab Sheets 01–09. Every question is in its own Python file, grouped by lab sheet.
 
 ## Run a program
 ```bash
@@ -16,6 +16,11 @@ python 01_write_file.py
 For Lab Sheet 08 (database management), run a program from its folder, for example:
 ```bash
 python 01_connect_database.py
+```
+
+For Lab Sheet 09 (CRUD operations), run a program from its folder, for example:
+```bash
+python 01_create_student_list.py
 ```
 
 The lab-sheet folders and their Python files are available directly in this repository.

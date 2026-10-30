@@ -1,0 +1,53 @@
+MCA101P - Python Programming Lab
+Lab Sheet-09: CRUD Operations using Python Programming
+
+Objective
+The objective of this practical is to understand Create, Read, Update and Delete (CRUD)
+operations using Python lists, dictionaries, text files and an SQLite database.
+
+Software Used
+- Python 3.x
+- SQLite database (sqlite3 module)
+
+Programs
+1. Create a list of student records.
+2. Display student records.
+3. Search a student by name.
+4. Update student marks.
+5. Delete a student by roll number.
+6. Perform CRUD operations on employee dictionary.
+7. Perform CRUD operations on a list of books.
+8. Manage product details using CRUD operations.
+9. Save student data in a text file and read it.
+10. Perform CRUD operations on a text file.
+11. Connect to SQLite and create students table.
+12. Insert a student record.
+13. Display all student records.
+14. Search student by roll number.
+15. Update student marks.
+16. Delete a student record.
+17. Count total student records.
+18. Display records sorted by student name.
+19. Find the student with highest marks.
+20. Create a menu-driven database CRUD application.
+
+Implementation
+The first programs use Python lists and dictionaries to store records. File handling is used
+to save and retrieve data in text files. The database programs use SQLite and the sqlite3
+module. SQL commands such as CREATE TABLE, INSERT, SELECT, UPDATE and DELETE are used.
+Try-except blocks are included in programs where input or database errors may occur.
+Files and database connections are closed after use.
+
+How to Execute
+Extract the ZIP file, open the folder in VS Code or another Python editor, and run each
+.py file with Python 3. For database programs, run program 11 first. Add records before
+testing operations that search, update, delete or display records.
+
+Result
+All 20 programs are written to demonstrate CRUD operations using lists, dictionaries,
+files and an SQLite database. The programs display messages to indicate the result of
+each operation.
+
+Note
+The output depends on the values entered while running each program. Take screenshots
+of your own program executions and attach them if your teacher requires practical output.
