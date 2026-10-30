@@ -1,0 +1,27 @@
+MCA101P - Python Programming Lab
+Lab Sheet-07: File Handling - Read and Write Operations
+
+Implementation Report
+
+This lab sheet contains 30 Python programs based on text files and CSV files.
+The programs cover creating, reading, writing, appending, copying, searching,
+counting, replacing, sorting and combining file data.
+
+Programs 1-20:
+These programs use text file operations such as open(), read(), write(),
+append mode, readlines(), split() and basic exception handling.
+
+Programs 21-30:
+These programs use Python's csv module to create, read, append, copy,
+search and combine CSV records.
+
+How to execute:
+1. Install Python 3.
+2. Open the required .py file in VS Code or another Python editor.
+3. Run the file.
+4. Enter input when the program asks for it.
+5. Check the output in the terminal and the generated text/CSV files.
+
+Note:
+The output depends on the input entered and the contents of the files.
+Run the programs and add your own screenshots of actual outputs before submission.
